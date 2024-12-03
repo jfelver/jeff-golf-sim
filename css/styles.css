@@ -1,0 +1,21 @@
+body {
+  /* background-image: url('https://wallpapers.com/wallpapers/1920x1080-hd-golf-8a2xtajoc9rwppfd.html'); */
+  background-image: url('../assets/generated.jpg');
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  /* background */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    width: 100%; /* Sets the width to 100% of the viewport width */
+}
+h1, h3{
+  color: white;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for readability */
+  padding: 20px;
+  border-radius: 5px; /* Optional: rounded corners */
+}
+.navbar {
+background-color: #1a1a1a; /* Set to a darker color */
+}
