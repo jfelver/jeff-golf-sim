@@ -1,21 +1,82 @@
 body {
   /* background-image: url('https://wallpapers.com/wallpapers/1920x1080-hd-golf-8a2xtajoc9rwppfd.html'); */
-  background-image: url('../assets/generated.jpg');
+  background-image: url("../assets/generated.jpg");
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents tiling of the image */
   /* background */
-    height: 100vh; /* Sets the height to 100% of the viewport height */
-    width: 100%; /* Sets the width to 100% of the viewport width */
+  height: 100vh; /* Sets the height to 100% of the viewport height */
+  width: 100%; /* Sets the width to 100% of the viewport width */
 }
-h1, h3{
+h1,
+h3 {
   color: white;
 }
 .container {
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for readability */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Semi-transparent background for readability */
   padding: 20px;
   border-radius: 5px; /* Optional: rounded corners */
 }
 .navbar {
-background-color: #1a1a1a; /* Set to a darker color */
+  background-color: #1a1a1a; /* Set to a darker color */
+}
+
+body {
+  background-color: #f8f9fa; /* Light background for better readability */
+}
+
+h1 {
+  font-size: 1.75rem; /* Larger title for visibility */
+}
+
+.list-group-item {
+  padding: 1.5rem; /* Increase padding for easier tapping */
+}
+
+.list-group-item h5 {
+  font-size: 1.25rem; /* Header size within list items */
+}
+
+.text-center {
+  text-align: center; /* Center titles for aesthetic appeal */
+}
+
+.text-success {
+  font-weight: bold; /* Highlight sale prices */
+}
+
+.text-muted {
+  font-size: 0.875rem; /* Smaller font for less important text */
+}
+
+a {
+  color: #007bff; /* Bootstrap primary color for links */
+  text-decoration: underline; /* Underline links for clarity */
+}
+
+a:hover {
+  text-decoration: none; /* Remove underline on hover for a cleaner look */
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .list-group-item h5 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Optional: Additional custom styles for better mobile viewing */
+.list-group-item {
+  padding: 1rem 1rem; /* Increase padding for better touch targets */
+}
+.list-group-item ul {
+  margin-top: 0.5rem; /* Space above sublists */
+  padding-left: 1.5rem; /* Indent sublists */
 }
